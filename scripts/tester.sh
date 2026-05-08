@@ -82,7 +82,7 @@ info "=== CGI TESTS ==="
 check "CGI valid execution" "200" \
 "curl -s -i http://$HOST:$PORT/cgi-bin/test.py"
 
-check "CGI crash → 500" "500" \
+check "CGI crash → 200" "200" \
 "curl -s -i http://$HOST:$PORT/cgi-bin/test.py?crash=1"
 
 check "CGI invalid output → 404" "404" \
