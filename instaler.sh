@@ -105,7 +105,7 @@ server
         autoindex off;
     }
 }
-EOF 
+EOF
 
 
 echo "Everything up to work"
