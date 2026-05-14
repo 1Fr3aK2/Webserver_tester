@@ -24,7 +24,7 @@ server
 
     index index.html;
 
-    client_max_body_size 4096;
+    client_max_body_size 200000000;
 
     error_page 200 /error_pages/200.html;
     error_page 201 /error_pages/201.html;
