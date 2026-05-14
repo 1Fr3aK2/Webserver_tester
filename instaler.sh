@@ -101,11 +101,17 @@ server
     # default file = youpi.bad_extension
     location /directory/
     {
-        allowed_methods GET;
+        allowed_methods GET POST;
         root ./YoupiBanane;
         index youpi.bad_extension;
         autoindex off;
-    }
+        cgi_pass on;
+        cgi_ext .bla;
+        cgi_types
+        {
+          .bla ./cgi_test;
+        }
+     }
 }
 EOF
 
