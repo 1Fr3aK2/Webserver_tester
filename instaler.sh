@@ -3,6 +3,7 @@
 mkdir -p YoupiBanane/nop
 mkdir -p YoupiBanane/Yeah
 mkdir -p YoupiBanane/directory
+mkdir -p www/bla_cgi
 
 touch YoupiBanane/youpi.bad_extension
 touch YoupiBanane/youpi.bla
