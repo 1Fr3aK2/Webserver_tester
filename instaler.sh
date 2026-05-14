@@ -46,7 +46,7 @@ server
 
     mime_types
     {
-        text/html html htm;
+        text/html html htm bad_extension;
         text/css css;
         application/javascript js;
         application/json json;
