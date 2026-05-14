@@ -2,6 +2,7 @@
 
 mkdir -p YoupiBanane/nop
 mkdir -p YoupiBanane/Yeah
+mkdir -p YoupiBanane/directory
 
 touch YoupiBanane/youpi.bad_extension
 touch YoupiBanane/youpi.bla
