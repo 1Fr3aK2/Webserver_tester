@@ -109,7 +109,7 @@ server
         cgi_ext .bla;
         cgi_types
         {
-          .bla ./cgi_test;
+          .bla ./cgi_tester;
         }
      }
 }
